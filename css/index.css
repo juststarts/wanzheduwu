@@ -112,6 +112,18 @@ body{
 .content .ctn-reading{
   padding:9.375rem 0;
 }
+.content .ctn-reading .top img{
+  max-width: 830px;
+}
+.content .ctn-understand .top img{
+  max-width: 1288px;
+}
+.content .ctn-easy .top img{
+  max-width: 477px;
+}
+.content .ctn-learning .top img{
+  max-width: 951px;
+}
 .content .ctn-reading .bottom .item{
   /* margin:0 20px; */
   width: 25%;
@@ -119,7 +131,7 @@ body{
 }
 .content .ctn-reading .bottom .item img{
   width: 100%;
-  max-width: 22.375rem;
+  max-width: 358px;
 }
 /**
   ctn-understand
