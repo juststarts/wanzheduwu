@@ -1,0 +1,121 @@
+@media screen and (max-width: 1024px) {
+  .header{
+    height: 4.8rem;
+  }
+  .header .logo{
+    margin: 0 auto;
+  }
+  .header .logo a{
+    justify-content: center;
+  }
+  .header .logo span.right img{
+    height: 2rem;
+    margin-top: .5rem;
+  }
+  .content .ctn-reading .top .title{
+    padding:0 10.625rem;
+  }
+  .content .ctn-reading .top .text-msg {
+    max-width: 30rem;
+  }
+  .content .top .title img{
+    width: 100%;
+  }
+
+  .content .ctn-reading{
+    padding:5rem 0 0;
+  }
+  .ctn .top .text{
+    margin: -0.875rem auto 1rem;
+    font-size: 2.5rem;
+  }
+  .ctn .top .text-msg{
+    font-size: 1.25rem;
+    
+    text-align: center;
+    margin: auto
+  }
+ 
+  .content .ctn-reading .bottom, .content .ctn-understand .bottom{
+    margin: 4.25rem auto 0;
+  }
+  .content .ctn-reading .bottom{
+    flex-wrap: wrap;
+    width: 39.5rem;
+    display: block;
+    
+
+  }
+  .content .ctn-reading .bottom .item{
+    float: left;
+    margin: 1.25rem;
+  }
+  .content .ctn-reading .bottom .item{
+    min-width: 17.25rem;
+  }
+  .content .ctn-understand{
+    margin-top: 4.6875rem;
+  }
+  .content .ctn-understand .top .title{
+    padding: 0 3.125rem;
+  }
+  .content .ctn-understand .bottom{
+    max-width: 750px;
+    padding: 0 3.75rem;
+  }
+  .content .ctn-understand .bottom .item{
+    margin: 0 .125rem;
+    max-width: none;
+    min-width: none;
+    margin:0 .125rem;
+  }
+  .content .ctn-understand .bottom .level{
+    font-size: 1.25rem;
+  }
+  .content .ctn-understand .bottom .item{
+    height: 13.125rem;
+  }
+  .content .ctn-understand{
+    padding: 3.125rem 0;
+  }
+  .content .ctn-easy{
+    padding: 5rem 0;
+  }
+  .content .ctn-easy .title{
+    padding: 0 14rem;
+  }
+  .ctn-easy .top .text-msg {
+    padding: 0 5.75rem
+  }
+  .content .ctn-easy .bottom .item{
+    padding:0 2.25rem;
+  }
+  .content .ctn-easy .bottom{
+    margin: 5rem auto 0;
+  }
+  .content .ctn-learning .top .title{
+    padding: 0 9.1875rem;
+  }
+  .content .ctn-learning .bottom{
+    max-width: none;
+    padding: 0 2.5rem;
+    margin: 2.5rem auto 0;
+  }
+  .footer{
+    padding: 0 2.875rem;
+    height:9.65rem
+  }
+  .footer .ctn .left{
+    margin: 3.125rem 0;
+  }
+  .footer .ctn .left .bottom,.footer .ctn .right .bottom{
+    font-size: 1rem;
+  }
+  .footer .ctn .right .top{
+    width: 5.1rem;
+  }
+  .footer .ctn .right{
+    width: auto;
+    margin: 1.125rem 0;
+  }
+}
